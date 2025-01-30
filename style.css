@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-color: rgba(0, 0, 0, 0.950);
+    background-color: rgba(1, 5, 29, 0.95);
 }
 
 .badeen-display-regular {
@@ -22,7 +22,8 @@ h1 {
     text-align: center;
     font-size: 10em;
     margin: 10px;
-    text-shadow: rgb(71, 125, 175) 1px 1px 8px;
+    /* text-shadow: rgb(71, 125, 175) 1px 1px 8px; */
+    text-shadow: whitesmoke 1px 1px 8px;
 }
 
 p {
@@ -38,9 +39,10 @@ p {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    width: 300px;  
+    width: 280px;  
     aspect-ratio: 1;
     background: #df1a0c;
+    border-radius: 50%;
     /* clip-path: polygon(50% 0,
       calc(50%*(1 + sin(.4turn))) calc(50%*(1 - cos(.4turn))),
       calc(50%*(1 - sin(.2turn))) calc(50%*(1 - cos(.2turn))),
@@ -48,5 +50,6 @@ p {
       calc(50%*(1 - sin(.4turn))) calc(50%*(1 - cos(.4turn))) 
      );  */
     /* or more simple */
-    clip-path: polygon(50% 0%, 64% 36%, 100% 47%, 63% 58%, 49% 100%, 40% 71%, 36% 57%, 0 48%, 35% 35%);
+    /* clip-path: polygon(50% 0%, 64% 36%, 100% 47%, 63% 58%, 49% 100%, 40% 71%, 36% 57%, 0 48%, 35% 35%);
+    object-fit: cover; */
 }
